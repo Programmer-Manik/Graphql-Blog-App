@@ -1,0 +1,21 @@
+{
+  "name": "Graphql-Blog-App",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Programmer-Manik/Graphql-Blog-App.git",
+  "author": "Programmer-Manik <programmermanik1502083874@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev":"nodemon --watch './/**/*.ts' --exec ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.5",
+    "@types/node": "^22.1.0",
+    "graphql": "^16.9.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
